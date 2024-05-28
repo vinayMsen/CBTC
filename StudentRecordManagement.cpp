@@ -14,11 +14,11 @@ Consistent Stream Clearing:
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <limits>  // Include this for numeric_limits
+#include <limits>  // Including this for numeric_limits
 
 using namespace std;
 
-// Define the Student structure
+// Defining the Student structure
 struct Student {
     int rollNumber;
     string name;
@@ -31,9 +31,10 @@ struct Student {
 void addStudent();
 void viewStudents();
 void searchStudent();
-void clearInputStream();  // Helper function to clear input stream
+void clearInputStream();  // Helper function to clear input stream from chatgpt
 
 int main() {
+    system("cls");
     int choice;
     do {
         cout << "Student Record Management System" << endl;
